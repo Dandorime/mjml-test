@@ -1,0 +1,395 @@
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<style type="text/css">
+:root {
+Color-scheme: light dark;
+supported-color-schemes:light dark;
+}
+</style>
+<mjml>
+  <mj-head>
+    <mj-preview>Netflix</mj-preview>
+    <mj-style>
+
+  @media (prefers-color-scheme: dark ) {
+ .body {
+      background-color: #000000 !important;
+ }
+  mj-text {
+      color: #ffffff !important;
+  }
+      .block-up{
+        background:#000000 !important;
+      }
+      .block-down{
+        background:#000000 !important;
+      }
+}
+
+
+  @media(min-width:0px)
+  {
+    .point{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 10px;
+    gap: 20px;
+    position: relative;
+    width: 320px;
+    background: #F1F1F1;
+    }
+    .text-up{
+    color:#000000;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;  
+    padding:170px 0 0 0px;  
+    text-align: center;
+    }
+    .text-down{
+      color:#000000;
+      width: 260px;
+      height: 156px;
+      font-family: 'Helvetica';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+      padding:0 0 0px ;
+      text-align: center;
+    }
+    .block-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+    padding: 0;
+    width: 300px;
+    height: 612px;
+    background:#FFFFFF url(image\block_4.png) no-repeat;  
+    background-size:300px 170px;
+    border-radius: 24px;
+    }
+    .block-down{
+      display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0;
+gap: 20px;
+width: 300px;
+height: 1266px;
+background: #FFFFFF;
+border-radius: 20px;
+    }
+    .film-block-left{
+      width:250px;
+      height:369px;
+      border-radius:8px; 
+      padding:0;
+    }
+    .film-block-right{
+      width:250px;
+      height:369px;
+      border-radius:8px; 
+      padding: 0;
+    }
+    .film-block{
+      width:260px;
+    height: 369px;
+    border-radius: 8px;
+    }
+    .social-group{
+     padding:26px 73px 0px 73px;
+   }
+    .btn-icon_VK
+    {
+      background: url('image/icon_VK.png') no-repeat ; 
+   width: 25px;
+   height: 20px;
+    }
+    .btn-icon_twitter
+    {
+      background: url('image/icon_twitter.png') no-repeat ; 
+   width: 25px;
+   height: 20px;
+    }
+    .btn-icon_telegram
+    {
+      background: url('image/icon_telegram.png') no-repeat ; 
+   width: 25px;
+   height: 20px;
+    }
+    .text-up-film-block
+    {
+      width: 250px;
+height: 20px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+    }
+    .text-down-film-block
+    {
+      width: 250px;
+height: 40px;   
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+    }
+      .text-title{color:#000000;
+     width: 260px;
+height: 32px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 32px;
+text-align:center;
+padding:0;
+   }
+   .colontitul-up{
+     padding: 0px 0px 0px 0px;
+width: 300px;
+height: 100px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #828282;
+    }
+    .colontitul-down{
+      width: 300px;
+height: 14px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+text-align: center;
+color: #828282;
+    }
+  }
+  
+
+
+  
+  @media(min-width:321px)
+  {
+    .point{
+       display: flex;
+flex-direction: column;
+align-items: center;
+
+padding: 40px 190px 60px;
+gap: 40px;
+position: relative;
+width: 980px;
+background: #F1F1F1;
+    }
+    .text-up{
+      width: 520px;
+height: 64px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 32px;
+text-align: center;
+color: #000000;
+padding: 360px 0 0px 20px;
+    }
+    .text-down{
+     width: 520px;
+height: 78px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+color: #000000;
+padding:0 0px 0 15px;
+    }
+    .block-up{
+   display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+width: 600px;
+height: 692px;
+background:#FFFFFF url(image\block_4.png) no-repeat; 
+background-size:600px ;
+border-radius:24px; 
+    }
+    .block-down{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0 0 20px 0px;
+width: 600px;
+height: 689px;
+background: #FFFFFF;
+border-radius: 24px;
+    }
+    .film-block-left{
+     
+      width:250px;
+      height:369px;
+      border-radius:8px; 
+      padding:0;
+    }
+    .film-block-right{
+    
+      width:250px;
+      height:369px;
+      border-radius:8px; 
+      padding: 0;
+    }
+   .text-title{
+     color:#000000;
+     width: 520px;
+height: 32px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 32px;
+text-align:center;
+padding:0;
+   }
+   .social-group{
+     padding:56px 400px 0px 400px;
+   }
+   .btn-icon_VK
+    {
+      background: url('image/icon_VK.png') no-repeat ; 
+   width: 25px;
+   height: 20px;
+    }
+    .btn-icon_twitter
+    {
+      background: url('image/icon_twitter.png') no-repeat ; 
+   width: 25px;
+   height: 20px;
+    }
+    .btn-icon_telegram
+    {
+      background: url('image/icon_telegram.png') no-repeat ; 
+   width: 25px;
+   height: 20px;
+    }
+    .text-up-film-block
+    {
+      width: 250px;
+height: 20px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+    }
+    .text-down-film-block
+    {
+      width: 250px;
+height: 40px;   
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+    }
+    .colontitul-up{
+      width: 520px;
+height: 60px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #999999;
+    }
+    .colontitul-down{
+      width: 520px;
+height: 14px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+text-align: center;
+color: #999999;
+    }
+  }
+
+  </mj-style>
+  </mj-head>
+  <mj-body css-class="point">
+    <mj-section>
+      <mj-column >
+        <mj-image  width="147px" padding="0" src="image\netflix.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+      <mj-section css-class="block-up">
+        <mj-column >
+          <mj-text> <div class="text-up">Хочется чего-то особенного этим знойным летом?</div></mj-text>
+          <mj-text> <div class="text-down">Есть над чем задуматься: явные признаки победы институционализации разоблачены. Банальные, но неопровержимые выводы</div></mj-text>
+          <mj-button line-height="16px" font-size="16px" font-weight="700" font-style="normal" font-family="Helvetica" align="center" background-color="#DB202C" width="250px" height="25px" border-radius="25px">Оо-о-кей, летсгоу</mj-button>
+        </mj-column>
+      </mj-section>
+    <mj-wrapper css-class="block-down">
+      <mj-section >
+      <mj-column>
+        <mj-text><div class="text-title">Подборка для вас</div></mj-text>
+      </mj-section >
+       <mj-section >
+      <mj-column>
+        <mj-image height="369px" src="image\film_1.png"/>
+        <mj-text><div class="text-up-film-block">Репсодия</div></mj-text>
+        <mj-text><div class="text-down-film-block">Предварительные выводы неутешительны</div></mj-text>
+        <mj-button line-height="16px" font-size="16px" font-weight="700" font-style="normal" font-family="Helvetica" background-color="#DB202C" width="250px" height="25px" border-radius="25px">Смотреть</mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-image height="369px" src="image/film_2.png"/>
+        <mj-text ><div class="text-up-film-block">Противоположная точка</div></mj-text>
+        <mj-text><div class="text-down-film-block">Не следует, однако, забывать, что высокое качество</div></mj-text>
+        <mj-button line-height="16px" font-size="16px" font-weight="700" font-style="normal" font-family="Helvetica" background-color="#DB202C" width="250px" height="25px" border-radius="25px">Смотреть</mj-button>
+      </mj-column>
+      </mj-section>
+    </mj-wrapper >
+    <mj-section css-class="social-group">
+    <mj-group >
+    <mj-column padding=" 0 23px 0 23px">
+    <mj-social css-class="btn-icon_VK"></mj-social>
+    </mj-column>
+    <mj-column padding=" 0 23px 0 23px">
+    <mj-social css-class="btn-icon_telegram"></mj-social>
+    </mj-column>
+    <mj-column padding=" 0 23px 0 23px">
+    <mj-social css-class="btn-icon_twitter"></mj-social>
+    </mj-column>
+    </mj-group>
+    </mj-section>
+    <mj-section >
+    <mj-column >
+    <mj-text padding="0px 0px 35px"><div class="colontitul-up">Разнообразный и богатый опыт говорит нам, что внедрение современных методик требует анализа глубокомысленных рассуждений. В своём стремлении повысить качество жизни, они забывают</div></mj-text>
+    <mj-text padding="10px 0 10px 0"><div class="colontitul-down">Отписаться от рассылки</div></mj-text>
+    <mj-divider border-width="1px"  border-color="#343434" />
+    <mj-text padding="20px 0px 0px 0px" ><div class="colontitul-up">© 2022, Netflix CO</div></mj-text>
+    </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
